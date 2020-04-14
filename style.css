@@ -1,0 +1,51 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.next{
+  transform: scaleX(-1);
+}
+.title-container{
+  width: 100%;
+  text-align: center;
+}
+.services-outer-container{
+  margin: 1em 10%;
+  padding: 1em;
+  width: 80%;
+  background-image: url("./assets/worldMap.jpg");
+}
+
+.services-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.service-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 34%;
+  margin: 1em 0;
+}
+.title-item-container {
+  display: flex;
+  flex-direction: row;
+}
+.service-img {
+  width: 2.5em;
+}
+.service-title{
+  color: #065575;
+  margin-left: 1.5em;
+  font-weight: bold;
+}
+.service-descr-container {
+  margin-left: 4em;
+  text-align: left;
+}
+.more{
+  color: #0991c8;
+  cursor: pointer;
+}
