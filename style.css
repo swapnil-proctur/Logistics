@@ -11,7 +11,7 @@ body{
 .header{
   padding: 0;
   z-index: 100;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   color: white;
@@ -153,4 +153,85 @@ ol.carousel-indicators li.active{
 .more{
   color: #0991c8;
   cursor: pointer;
+}
+
+
+
+
+
+
+
+/* footer */
+.footer{
+  display: flex;
+  flex-direction: column;
+
+}
+.footer-container{
+  background: #065575;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2em 15%;
+  justify-content: space-between;
+}
+.footer-item{
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.footer-description{
+  font-size: 11pt;
+  display: flex;
+  flex-direction: column;
+}
+.footer-desc-item{
+  margin: 0.5em 0;
+  display: flex;
+  flex-direction: row;
+}
+.desc-img{
+  width: 2em;
+  height: 2em;
+  margin: 0 0.5em;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  background-color: black;
+  background-clip: padding-box;
+  border: 1px solid black;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.input-container{
+  margin: 2em 0;
+  background: #000000;
+}
+.input-group-text{
+  color: white;
+  background: #0991c8;
+  border: none;
+}
+
+.contact-details{
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2em 15%;
+  justify-content: space-between;
+}
+.contact-item{
+  display: flex;
+  flex-direction: row;
+}
+.social-media-icons{
+  margin: 0 0.5em;
 }
